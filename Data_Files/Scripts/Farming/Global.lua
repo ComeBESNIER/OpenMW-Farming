@@ -166,9 +166,9 @@ local function onUpdate()
 																											}))
 			end
 		end
-		for i,seed in pairs(Seeds) do
-			world.createObject(seed.id,1):teleport(world.players[1].cell.name,world.players[1].position)
-		end
+		--for i,seed in pairs(Seeds) do
+		--	world.createObject(seed.id,1):teleport(world.players[1].cell.name,world.players[1].position)
+		--end
 	end
 
 	if ActiveCell==nil then
